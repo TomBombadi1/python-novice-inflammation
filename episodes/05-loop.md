@@ -61,7 +61,7 @@ print(odds[3])
 This is a bad approach for three reasons:
 
 1. **Not scalable**. Imagine you need to print a list that has hundreds
-  of elements.  It might be easier to type them in manually.
+  of elements. It might be easier to type them in manually.
 
 2. **Difficult to maintain**. If we want to decorate each printed element with an
   asterisk or any other character, we would have to change four lines of code. While
@@ -159,7 +159,7 @@ of the loop body (e.g. `end for`); everything indented after the `for` statement
 
 In the example above, the loop variable was given the name `num` as a mnemonic;
 it is short for 'number'.
-We can choose any name we want for variables.  We might just as easily have chosen the name
+We can choose any name we want for variables. We might just as easily have chosen the name
 `banana` for the loop variable, as long as we use the same name when we invoke the variable inside
 the loop:
 
@@ -268,7 +268,7 @@ accept 1, 2, or 3 parameters.
   For example, `range(3, 10, 2)` produces `3, 5, 7, 9`.
 
 Using `range`,
-write a loop that uses `range` to print the first 3 natural numbers:
+write a loop that prints the first 3 natural numbers:
 
 ```python
 1
@@ -392,7 +392,7 @@ The code above loops through `a_list`, assigning the index to `idx` and the valu
 Suppose you have encoded a polynomial as a list of coefficients in
 the following way: the first element is the constant term, the
 second element is the coefficient of the linear term, the third is the
-coefficient of the quadratic term, etc.
+coefficient of the quadratic term, where the polynomial is of the form $ax^0 + bx^1 + cx^2$.
 
 ```python
 x = 5
